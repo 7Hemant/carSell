@@ -4,12 +4,12 @@ import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 const Pagination = () => {
   const [active, setActive] = React.useState(1);
 
-  const getItemProps = (index: React.SetStateAction<number>) =>
-    ({
-      variant: active === index ? "filled" : "text",
-      color: "gray",
-      onClick: () => setActive(index),
-    } as any);
+  // const getItemProps = (index: React.SetStateAction<number>) =>
+  //   ({
+  //     variant: active === index ? "filled" : "text",
+  //     color: "gray",
+  //     onClick: () => setActive(index),
+  //   } as any);
 
   const next = () => {
     if (active === 5) return;

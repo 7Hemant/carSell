@@ -1,5 +1,3 @@
-import React from "react";
-
 const CardLoader = () => {
   return <div>CardLoader</div>;
 };
